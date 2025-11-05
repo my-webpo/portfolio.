@@ -842,7 +842,7 @@
         }
 
         .portfolio-item:nth-child(4) .portfolio-image {
-            background-image: url('/p4.png');
+            background-image: url('p4.png');
         }
 
         .portfolio-item:nth-child(5) .portfolio-image {
@@ -1300,3 +1300,4 @@
         }
 
                 
+
