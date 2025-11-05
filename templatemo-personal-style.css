@@ -6,6 +6,58 @@
   max-width: 1200px;
   margin: auto;
 }
+/* Make page responsive on all devices */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Make text and sections adjust well */
+section, div, header, footer {
+  max-width: 100%;
+  padding: 20px;
+  margin: auto;
+}
+
+/* Make buttons, images, and text flexible */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
+  display: block;
+}
+
+/* Adjust layout for small screens */
+@media (max-width: 768px) {
+  h1, h2, h3, p {
+    text-align: center;
+  }
+
+  .container, .content, .hero, .section {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 @media (max-width: 768px) {
   h1 {
@@ -1316,6 +1368,7 @@
         }
 
                 
+
 
 
 
