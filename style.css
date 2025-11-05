@@ -5,7 +5,24 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            width: 100%;
         }
+
+{
+       max-width: 100%;
+       height: auto;
+       display: block;
+}
+
+/* make it responsive */
+.container-or-section {
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 16px; /* optional */
+  padding-right: 16px; /* optional */
+}
+
 
         /* Footer */
         .footer {
@@ -1300,3 +1317,4 @@
         }
 
                 
+
