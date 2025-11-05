@@ -7,21 +7,6 @@
             box-sizing: border-box;
         }
 
-{
-       height: auto;
-       display: block;
-}
-
-/* make it responsive */
-.container-or-section {
-  max-width: 100%;
-  width: 100%;
-  box-sizing: border-box;
-  padding-left: 16px; /* optional */
-  padding-right: 16px; /* optional */
-}
-
-
         /* Footer */
         .footer {
             background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #312e81 100%);
@@ -1315,6 +1300,7 @@
         }
 
                 
+
 
 
 
