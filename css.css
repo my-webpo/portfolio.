@@ -720,7 +720,7 @@ body {
 
         .about-image {
     width: 100%;
-    height: auto;            /* was: 500px */
+    height: 500px;            /* was: 500px */
     aspect-ratio: 16/10;     /* keeps a good shape on mobile */
     min-height: 280px;       /* optional floor for desktop look */
     background: url('user2.jpg') center/cover;
@@ -1314,5 +1314,6 @@ body {
         }
 
                 
+
 
 
